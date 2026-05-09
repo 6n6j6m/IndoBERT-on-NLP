@@ -2,10 +2,10 @@
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 
-I'm trying to use IndoBERT on indonesian tweet dataset about people opinion, which divided into 8 topics
+This project focuses on using IndoBERT for opinion classification on an Indonesian-language tweet dataset divided into 8 topics.
 
-I got this dataset from one of the competition that i've participated
+The dataset used comes from one of the competitions I participated in.
 
-i do some EDA, Text Processing including Augmentation and Resampling, and also i do some experiments on the models using indotweet, multilingual-bert, indobert (base/large), and bert-based
+The experiments include EDA, text preprocessing (including augmentation and resampling), and comparisons across several models such as IndoTweet, Multilingual-BERT, IndoBERT (base/large), and other BERT-based models.
 
-The result isn't quite satisfying because i think the dataset isn't enough for BERT and maybe some trouble in the preprocessing that i did
+The results are still not very satisfying. Possible reasons are that the dataset size is not large enough for BERT models, and the preprocessing pipeline can still be improved.
